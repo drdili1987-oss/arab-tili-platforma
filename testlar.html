@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ILM PLATFORM — Testlar sahifasi. Sarf, Nahv, Balog'at va Usulul fiqh bo'yicha bilimlaringizni sinab ko'ring.">
+    <title>Testlar — ILM PLATFORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="testlar-page">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-ilm">ILM</span>
+                <span class="logo-platform">PLATFORM</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Bosh sahifa</a></li>
+                <li><a href="fanlar.html" class="nav-link">Fanlar</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Darslar <span class="dropdown-arrow">▾</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="darslar-sarf.html">Sarf</a></li>
+                        <li><a href="darslar-nahv.html">Nahv</a></li>
+                        <li><a href="darslar-balogat.html">Balog'at</a></li>
+                        <li><a href="darslar-usul.html">Usulul fiqh</a></li>
+                    </ul>
+                </li>
+                <li><a href="testlar.html" class="nav-link active">Testlar</a></li>
+                <li><a href="ai-yordamchi.html" class="nav-link">AI Yordamchi</a></li>
+            </ul>
+            <a href="https://t.me/ilm_platform_bot" target="_blank" rel="noopener" class="nav-telegram" title="Telegram bot">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+            <button class="nav-hamburger" id="navHamburger" aria-label="Menyuni ochish">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>📝 Bilimingizni Sinang</h1>
+            <p>Fan bo'yicha 12 ta savoldan iborat testlarni yeching va natijangizni bilib oling</p>
+        </div>
+    </section>
+
+    <!-- Test Section -->
+    <section class="section test-section">
+        <div class="container">
+            <!-- Subject Selection Area -->
+            <div class="subject-selection">
+                <div class="section-title text-center" style="margin-bottom: 2rem;">
+                    <h2>Test topshirish uchun fanni tanlang</h2>
+                    <p style="color: var(--clr-text-light);">Har bir test 12 ta savoldan iborat bo'lib, o'tilgan darslar bo'yicha tuzilgan</p>
+                </div>
+
+                <div class="test-subjects-grid subject-cards-container">
+                    <!-- Sarf -->
+                    <div class="test-subject-card subject-card" data-subject="sarf">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📝</div>
+                        <h3 style="color: var(--clr-primary); margin-bottom: 0.25rem;">Sarf</h3>
+                        <p class="arabic-text" dir="rtl" lang="ar" style="font-size: 1.2rem; color: var(--clr-accent); margin-bottom: 0.5rem;">الصرف</p>
+                        <p style="font-size: 0.9rem; color: var(--clr-text-light); margin-bottom: 1rem;">So'z yasalishi, fe'l tuslanishi va ism shakllari bo'yicha 12 ta savol.</p>
+                        <span class="badge badge-primary">12 savol</span>
+                    </div>
+
+                    <!-- Nahv -->
+                    <div class="test-subject-card subject-card" data-subject="nahv">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📖</div>
+                        <h3 style="color: var(--clr-primary); margin-bottom: 0.25rem;">Nahv</h3>
+                        <p class="arabic-text" dir="rtl" lang="ar" style="font-size: 1.2rem; color: var(--clr-accent); margin-bottom: 0.5rem;">النحو</p>
+                        <p style="font-size: 0.9rem; color: var(--clr-text-light); margin-bottom: 1rem;">Jumlalar tuzilishi, i'rob va grammatik qoidalar bo'yicha 12 ta savol.</p>
+                        <span class="badge badge-primary">12 savol</span>
+                    </div>
+
+                    <!-- Balog'at -->
+                    <div class="test-subject-card subject-card" data-subject="balogat">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎯</div>
+                        <h3 style="color: var(--clr-primary); margin-bottom: 0.25rem;">Balog'at</h3>
+                        <p class="arabic-text" dir="rtl" lang="ar" style="font-size: 1.2rem; color: var(--clr-accent); margin-bottom: 0.5rem;">البلاغة</p>
+                        <p style="font-size: 0.9rem; color: var(--clr-text-light); margin-bottom: 1rem;">Ma'oniy, bayon, bade', tashbih va majoz san'atlari bo'yicha 12 ta savol.</p>
+                        <span class="badge badge-primary">12 savol</span>
+                    </div>
+
+                    <!-- Usulul fiqh -->
+                    <div class="test-subject-card subject-card" data-subject="usul">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">⚖️</div>
+                        <h3 style="color: var(--clr-primary); margin-bottom: 0.25rem;">Usulul fiqh</h3>
+                        <p class="arabic-text" dir="rtl" lang="ar" style="font-size: 1.2rem; color: var(--clr-accent); margin-bottom: 0.5rem;">أصول الفقه</p>
+                        <p style="font-size: 0.9rem; color: var(--clr-text-light); margin-bottom: 1rem;">Fiqh asoslari, Qur'on, sunna, ijmo' va qiyos bo'yicha 12 ta savol.</p>
+                        <span class="badge badge-primary">12 savol</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Area (Hidden Initially) -->
+            <div class="quiz-area" id="quiz-area" style="display: none;">
+                <div class="question-card">
+                    <!-- Progress Bar Header -->
+                    <div class="question-progress">
+                        <div class="progress-fill test-progress-bar" id="test-progress-bar" style="width: 0%;"></div>
+                    </div>
+
+                    <div class="question-body">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                            <span class="question-number" id="question-number">Savol 1/12</span>
+                            <div style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--clr-primary);">
+                                <span>⏱</span>
+                                <span class="test-timer" id="test-timer">00:00</span>
+                            </div>
+                        </div>
+
+                        <h3 class="question-text" id="question-text">Savol matni yuklanmoqda...</h3>
+
+                        <!-- Test Options -->
+                        <div class="options-list test-options" id="test-options">
+                            <!-- Populated dynamically by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Navigation Controls -->
+                    <div class="question-nav">
+                        <button class="btn btn-secondary" data-test-action="prev" style="display: none;">← Oldingi</button>
+                        <button class="btn btn-secondary" data-test-action="reset" style="background: transparent; color: var(--clr-text-light); border: 1px solid var(--clr-border);">Bekor qilish</button>
+                        <div>
+                            <button class="btn btn-primary" data-test-action="next">Keyingi →</button>
+                            <button class="btn btn-submit" data-test-action="submit" style="display: none;">Testni yakunlash ✓</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Container (Hidden Initially) -->
+            <div class="test-results" id="test-results" style="display: none;">
+                <!-- Populated dynamically by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="nav-logo">
+                    <span class="logo-ilm">ILM</span>
+                    <span class="logo-platform" style="color: var(--clr-white);">PLATFORM</span>
+                </a>
+                <p>Islom ilmlarini zamonaviy, qulay va tushunarli usulda o'rganish platformasi. Sarf, Nahv, Balog'at va Usulul fiqh bo'yicha sifatli ta'lim.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Fanlar</h4>
+                <ul>
+                    <li><a href="darslar-sarf.html">Sarf</a></li>
+                    <li><a href="darslar-nahv.html">Nahv</a></li>
+                    <li><a href="darslar-balogat.html">Balog'at</a></li>
+                    <li><a href="darslar-usul.html">Usulul fiqh</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Tezkor havolalar</h4>
+                <ul>
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="fanlar.html">Fanlar</a></li>
+                    <li><a href="testlar.html">Testlar</a></li>
+                    <li><a href="ai-yordamchi.html">AI Yordamchi</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Bog'lanish</h4>
+                <p>Telegram: <a href="https://t.me/ilm_platform_bot" target="_blank" rel="noopener">@ilm_platform_bot</a></p>
+                <p>Email: info@ilmplatform.uz</p>
+                <a href="https://t.me/ilm_platform_bot" target="_blank" rel="noopener" class="btn btn-telegram" style="margin-top: 10px;">
+                    Telegram Botga o'tish
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2024 ILM PLATFORM. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Telegram Button -->
+    <a href="https://t.me/ilm_platform_bot" target="_blank" rel="noopener" class="telegram-float" title="Telegram botimizga qo'shiling!">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+    </a>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Yuqoriga qaytish">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
